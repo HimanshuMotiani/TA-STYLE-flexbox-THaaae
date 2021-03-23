@@ -1,0 +1,106 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea78916b51.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="">
+                <img src="assets/new-alt-logo.png" alt="logo">
+            </a>
+            <div class="flex">
+                <a class="bell" href="">
+                    <img src="assets/icons/bell.svg" alt="notify">
+                </a>
+                <p class="text-align">Sarah Jone</p>
+                <a class="profile" href="">
+                    <img src="assets/icons/user.svg" alt="user">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="flex">
+                    <aside class="aside">
+                        <div class="row">
+                            <a  class="pages" href="">
+                                <img src="assets/icons/dashboard.svg">
+                                <h3><b>Dashboard</b></h3>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="pages active" href="">
+                                <img src="assets/icons/article.svg">
+                                <h3><b>Article</b></h3>
+                            </a>
+                        </div>
+                        <div class="row"> 
+                            <a class="pages" href="">
+                                <img src="assets/icons/analytics.svg">
+                                <h3><b>Analytics</b></h3>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a  class="pages" href="">
+                                <img src="assets/icons/inbox.svg">
+                                <h3><b>Inbox</b></h3>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="pages" href="">
+                                <img src="assets/icons/setting.svg">
+                                <h3><b>Settings</b></h3>
+                            </a>
+                        </div>
+                        <div class="row log-out">
+                            <a  class="pages back-color" href="">
+                                <img src="assets/icons/log-out.svg">
+                                <h3><b>Log Out</b></h3>
+                            </a>
+                        </div>
+                    </aside>
+                    <article class="article">
+                        <img src="assets/01.png">
+                        <h2>Why we are doing AltCampus?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing nulla architecto harum adipisci corporis omnis repudiandae, possimus odio rerum quidem! Autem asperiores praesentium officiis fugit, iure numquam at blanditiis ea suscipit natus, ducimus minus pariatur mollitia in ullam ipsam molestias facere non officia laboriosam. Rem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed  Doloremque delectus error molestiae,repudiandae, possimus odio rerum quidem! Autem  exercitationem magnam laudantium cumque voluptatibus quod quasi?</p>
+                    <button class="btn">Read More</button>
+                </article>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container flex">
+            <small>&copy AltCampus</small>
+            <nav class="links">
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
