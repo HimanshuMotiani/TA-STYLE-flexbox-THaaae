@@ -1,0 +1,92 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea78916b51.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <header class="header">
+            <div class="container clearfix">
+                <img src="assets/altcampus-logo.jpeg" alt="logo">
+                <nav class="nav">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Profile</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <div class="parent container clearfix">
+                    <article class="row">
+                        <h2>
+                            THE "TRAVEL AND LANGUAGE" COLLEGE
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo recusandae aspernatur accusamus
+                            cum
+                            quia omnis corporis atque provident laudantium nostrum dolor ab tenetur repudiandae
+                            voluptatem,
+                            in dolorum blanditiis nam necessitatibus asperiores dignissimos quis perspiciatis alias.
+                            Minus,
+                            a provident hic consectetur dolor ullam voluptatibus quaerat iure ab porro, expedita
+                            mollitia
+                            cumque nostrum id deleniti, libero explicabo distinctio. Voluptatem, officiis repellendus
+                            quaerat error velit eligendi similique nemo! Animi eligendi quibusdam dolorem. Amet
+                            repudiandae
+                            aliquam ea voluptatibus. Ullam doloribus quaerat exercitationem ipsa magni facere officiis
+                            iusto. Veniam placeat quia repellendus minima! Perferendis quibusdam delectus adipisci sint
+                            distinctio dignissimos a tempora quasi accusantium laborum.</p>
+                    </article>
+                    <div class="row">
+                        <img src="assets/mandrem1.jpeg">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="parent container">
+                    <img class="row" src="assets/office1.jpeg">
+                    <img class="row" src="assets/office1.jpeg">
+                    <img class="row" src="assets/office1.jpeg">
+                    <img class="row" src="assets/office2.jpeg">
+                    <img class="row" src="assets/office2.jpeg">
+                    <img class="row" src="assets/office2.jpeg">
+                </div>
+            </section>
+            <footer>
+                <div class="container clearfix">
+                    <small>&copy Untitled Design TEMPLATED Images Unsplash</small>
+                    <nav>
+                        <a href="https://facebook.com">
+                            <i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedIn.com"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                    </nav>
+                </div>
+            </footer>
+        </main>
+</body>
+
+</html>
